@@ -5,7 +5,8 @@ module.exports.hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: "Go Servereerless v1.0! Your function executed successfully!",
+        message:
+          "Go Serveasdfsdfsdreerless v1.0! Your function executed successfully!",
         input: event,
       },
       null,
@@ -22,7 +23,8 @@ module.exports.goodbye = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: "Go Serverless v1.0! Your function executed successfully!",
+        message:
+          "Go Servsadfsderless v1.0! Your function executed successfully!",
         input: event,
       },
       null,

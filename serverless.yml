@@ -13,8 +13,6 @@
 
 service: serverlesspractice
 # app and org for use with dashboard.serverless.com
-app: serverlesspractice-app
-org: aball9423
 
 # You can pin your service to only deploy with a specific Serverless version
 # Check out our docs for more details
