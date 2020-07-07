@@ -5,4 +5,5 @@ node -v
 npm -v
 echo "installing packages"
 npm install
-# npx serverless deploy
+echo "done installing, trying to deploy..."
+npx serverless deploy
