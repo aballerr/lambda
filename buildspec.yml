@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # build frontend
+      - bash deploy.sh
+
+    prebuild:
+      commands:
+        # echo Installing dependencies...
+        - yarn
+    build:
+      commands:
+        - echo testing node is isntalled...
+        - node -v
+        - echo Building...
+# artifacts:
+#   files:
+#     - "**/*"
+#   discard-paths: no
+#   base-directory: ./frontend/build
