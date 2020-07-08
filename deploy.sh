@@ -13,4 +13,4 @@ echo "creating lambda.."
 # aws lambda create-function --function-name my-functionn \
 # --zip-file fileb://function.zip --handler index.handler --runtime nodejs12.x \
 # --role arn:aws:iam::867120318595:role/lambda-ex
-serverless deploy
+npx serverless deploy
